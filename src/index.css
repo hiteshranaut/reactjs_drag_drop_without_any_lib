@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.wip {
+    height: 100vh;
+    width: 25%;
+    position: absolute;
+    left: 0;
+    background: red;
+}
+.droppable {
+    height: 100vh;
+    width: 25%;
+    position: absolute;
+    right: 0;
+    background: green;
+}
