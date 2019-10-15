@@ -24,6 +24,9 @@ export default class extends Component {
 
 
      onDragOver = (ev) => {
+       console.log("here I am");
+       console.log(ev.clientX + " " + ev.clientY);
+       // console.log(ev.clientX);
       ev.preventDefault();
     }
 
